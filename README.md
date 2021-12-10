@@ -22,6 +22,14 @@
 
 ### Промежуточные результаты
 
-- [Tiny VGG](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_Tiny_VGG.ipynb)
-- [Fine - tuning models](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FT.ipynb)
-- [Feature extraction](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FE.ipynb)
+- [**Tiny VGG**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_Tiny_VGG.ipynb)
+- [**Fine - tuning models**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FT.ipynb)
+- [**Feature extraction**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FE.ipynb)
+
+
+### Отбор лучшего решения 
+
+По результатам многочисленных экспериментов наилучший результат удалось получить с моделью   Inception v3 при использовании подхода fine – tuning. 
+
+Итоговые метрики качества классификатора и матрицы ошибок имеют следующий вид. 
+
