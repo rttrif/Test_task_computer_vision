@@ -23,13 +23,13 @@
 ### Промежуточные результаты
 
 - [**Tiny VGG**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_Tiny_VGG.ipynb)
-- [**Fine - tuning models**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FT.ipynb)
+- [**Fine-tuning models**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FT.ipynb)
 - [**Feature extraction models**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FE.ipynb)
 
 
 ### Отбор лучшего решения 
 
-По результатам многочисленных экспериментов наилучший результат удалось получить с моделью   Inception v3 при использовании подхода fine – tuning. 
+По результатам многочисленных экспериментов наилучший результат удалось получить с моделью   Inception v3 при использовании подхода fine–tuning. Данная модель принимается для дальнейшего развертывания в работу.
 
 Итоговые метрики качества классификатора и матрицы ошибок имеют следующий вид. 
 
@@ -37,6 +37,22 @@
 ![Снимок экрана 2021-12-10 в 19 10 33](https://user-images.githubusercontent.com/55245756/145556968-4c047bd6-9eca-4ba5-ba79-a3f4c17ac799.png)
 
 
+### Итоговое решение
 
+- [**Код обучения модели: FINE-TUNING MODEL Inception v3 **](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FT.ipynb)
+- [**Код использования модели**](https://github.com/rttrif/Test_task_computer_vision/blob/main/app.py)
+  - [Веса модели](https://drive.google.com/drive/folders/1-PjAp2RSkyMdqESb2t8pmVCTGGdggc-I?usp=sharing)
+  - [Модель в формате h5](https://drive.google.com/file/d/1-pUQ2MmUWbl8FaclvJx7QnB75gLvyn3I/view?usp=sharing)
+- **Запуск модели**
+  1. Скачать репозиторий, как архив 
+  2. Распаковать репозиторий в отдельную папку 
+  3. Зайти в данную папку через терминал  и пописать команду `$ streamlit run app.py`
+  4. В открывшемся окне браузера выбрать файл с изображением детали и нажать кнопку загрузить 
+  5. Дождаться результата классификации 
+
+
+### Заключение и выводы 
+- Качество модели можно поднять при увеличении исходного набора данных 
+- Хотел развернуть результат в качестве отдельного приложения, однако из-за ограничения GitHUB  на размера файлов для загрузки не смог за грузить данные модели, чтобы развернуть ее на Heroku
 
 
