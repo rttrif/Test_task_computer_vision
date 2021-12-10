@@ -39,7 +39,7 @@
 
 ### Итоговое решение
 
-- [**Код обучения модели: FINE-TUNING MODEL Inception v3 **](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FT.ipynb)
+- [**Код обучения модели: FINE-TUNING MODEL Inception v3**](https://github.com/rttrif/Test_task_computer_vision/blob/main/Part_classifier_FT.ipynb)
 - [**Код использования модели**](https://github.com/rttrif/Test_task_computer_vision/blob/main/app.py)
   - [Веса модели](https://drive.google.com/drive/folders/1-PjAp2RSkyMdqESb2t8pmVCTGGdggc-I?usp=sharing)
   - [Модель в формате h5](https://drive.google.com/file/d/1-pUQ2MmUWbl8FaclvJx7QnB75gLvyn3I/view?usp=sharing)
